@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/avalon/static/css/main.e1a5cd36.css",
+    "main.js": "/avalon/static/js/main.7bee0610.js",
+    "index.html": "/avalon/index.html",
+    "main.e1a5cd36.css.map": "/avalon/static/css/main.e1a5cd36.css.map",
+    "main.7bee0610.js.map": "/avalon/static/js/main.7bee0610.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1a5cd36.css",
+    "static/js/main.7bee0610.js"
+  ]
+}
