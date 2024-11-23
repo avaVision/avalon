@@ -1,0 +1,79 @@
+$blue: #3dbdc4;
+$black: #333;
+
+.homeCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+    position: relative;
+    color: $black;
+    margin-top: -10%;
+}
+
+.homeCard:hover {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.4);
+}
+
+.homeCard span {
+    display: block;
+}
+
+.cardOption {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: $black;
+    width: 100%;
+}
+
+.cardOption:hover {
+    color: white;
+    background-color: $blue;
+    cursor: pointer;
+}
+
+.animet-text {
+    margin: 0;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    padding: 0;
+    text-align: center; /* Added to center the text */
+}
+
+.animet-text li span {
+    position: relative;
+    margin: 5px 0;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+.animet-text li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 40px;
+    width: 100%;
+    background: #fff;
+    animation: typing 5s steps(50) infinite; /* Removed 'infinite' to play the animation once */
+}
+
+
+@keyframes typing {
+    40%,
+    60% {
+        left: calc(100% + 0px);
+    }
+    100% {
+        left: 0;
+    }
+}
+
+li {
+  color: $black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
